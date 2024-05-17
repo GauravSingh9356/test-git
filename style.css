@@ -1,0 +1,125 @@
+/* Romantic background styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif; /* Font for text */
+  height: 100vh; /* Full viewport height */
+  /* background: linear-gradient(
+    to bottom right,
+    #ff7e5f,
+    #feb47b
+  ); */
+  background: #eee;
+  /* Warm gradient */
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: center; */
+  text-align: center;
+}
+
+/* Centering the content and providing a nice layout */
+.container {
+  background: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+  border-radius: 10px; /* Rounded corners for softer appearance */
+  padding: 30px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Stronger shadow for depth */
+  width: 500px;
+}
+
+/* Making the heart bigger */
+.heart {
+  font-size: 120px; /* Large font size for a big heart */
+  color: red; /* Red heart color */
+  margin-bottom: 20px; /* Space between heart and text */
+}
+
+/* Styling the main message */
+.message {
+  font-size: 36px; /* Larger font for the message */
+  font-weight: bold; /* Bold text */
+  color: #e53935; /* Romantic deep red */
+}
+
+/* Styling the sub-message */
+.sub-message {
+  font-size: 15px; /* Smaller font for the sub-message */
+  color: #333; /* Darker color for contrast */
+  margin-top: 10px; /* Space between messages */
+
+  background: #e53935;
+  padding: 2px 6px;
+  color: #eee;
+  border-radius: 10px;
+}
+
+.body {
+  /* width: 500px; */
+  margin: 0 auto;
+
+  width: 600px;
+  z-index: 9999;
+  margin-top: 400px;
+}
+
+.bg_heart {
+  /* position: relative; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.heart {
+  position: absolute;
+  top: -50%;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -m-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.heart:before {
+  position: absolute;
+  top: -50%;
+  left: 0;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: 100%;
+}
+
+.heart:after {
+  position: absolute;
+  top: 0;
+  right: -50%;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: 100%;
+}
+
+@-webkit-keyframes love {
+  0% {
+    top: 110%;
+  }
+}
+@-moz-keyframes love {
+  0% {
+    top: 110%;
+  }
+}
+@-ms-keyframes love {
+  0% {
+    top: 110%;
+  }
+}
+@keyframes love {
+  0% {
+    top: 110%;
+  }
+}
