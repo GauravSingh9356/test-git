@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 console.log("Hello world in main!");
 
-clg("fuck");
+console.log("hello");
+
+
+
